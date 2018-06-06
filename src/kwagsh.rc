@@ -1,0 +1,32 @@
+#include <windows.h>
+
+1 VERSIONINFO
+ FILEVERSION 2,2,6,0
+ PRODUCTVERSION 2,2,6,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "The Kwagsh Group"
+            VALUE "FileDescription", "Kwagsh network daemon"
+            VALUE "FileVersion", "2.2.6.0"
+            VALUE "InternalName", "kwagshd.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2017-2018, The Kwagsh Group"
+            VALUE "OriginalFilename", "kwagshd.exe"
+            VALUE "ProductName", "Kwagsh"
+            VALUE "ProductVersion", "2.2.6.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+101               ICON                    "kwagsh.ico"
